@@ -1,0 +1,25 @@
+
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Search.iOS", "Search.iOS\Search.iOS.csproj", "{7A615DEF-4079-4B5A-AB9B-97A275DD32D1}"
+EndProject
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "Search", "Search\Search.shproj", "{4EF7B614-164F-4941-BFE4-350079BCF7EA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|iPhoneSimulator = Debug|iPhoneSimulator
+		Release|iPhoneSimulator = Release|iPhoneSimulator
+		Debug|iPhone = Debug|iPhone
+		Release|iPhone = Release|iPhone
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7A615DEF-4079-4B5A-AB9B-97A275DD32D1}.Debug|iPhoneSimulator.ActiveCfg = Debug|iPhoneSimulator
+		{7A615DEF-4079-4B5A-AB9B-97A275DD32D1}.Debug|iPhoneSimulator.Build.0 = Debug|iPhoneSimulator
+		{7A615DEF-4079-4B5A-AB9B-97A275DD32D1}.Release|iPhoneSimulator.ActiveCfg = Release|iPhoneSimulator
+		{7A615DEF-4079-4B5A-AB9B-97A275DD32D1}.Release|iPhoneSimulator.Build.0 = Release|iPhoneSimulator
+		{7A615DEF-4079-4B5A-AB9B-97A275DD32D1}.Debug|iPhone.ActiveCfg = Debug|iPhone
+		{7A615DEF-4079-4B5A-AB9B-97A275DD32D1}.Debug|iPhone.Build.0 = Debug|iPhone
+		{7A615DEF-4079-4B5A-AB9B-97A275DD32D1}.Release|iPhone.ActiveCfg = Release|iPhone
+		{7A615DEF-4079-4B5A-AB9B-97A275DD32D1}.Release|iPhone.Build.0 = Release|iPhone
+	EndGlobalSection
+EndGlobal

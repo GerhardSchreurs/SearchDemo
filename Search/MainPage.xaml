@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ContentPage
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:ios="clr-namespace:Xamarin.Forms.PlatformConfiguration.iOSSpecific;assembly=Xamarin.Forms.Core"
+    Title="Hello"
+    NavigationPage.HasNavigationBar="True"
+    ios:Page.LargeTitleDisplay="Automatic"
+    mc:Ignorable="d"
+    x:Class="Search.MainPage"
+    x:Name="_rootPage">
+    <StackLayout x:Name="_outerLayout">
+        <ListView x:Name="_list" BackgroundColor="AntiqueWhite" HasUnevenRows="True" />
+        <BoxView HeightRequest="100" BackgroundColor="Aqua" />
+    </StackLayout>
+</ContentPage>
