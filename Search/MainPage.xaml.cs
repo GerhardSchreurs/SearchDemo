@@ -15,6 +15,13 @@ namespace Search
 
             _data = new ObservableCollection<string>() { "a", "b", "c", "d", "e", "f", "g", "h", "i", "j", "k", "l", "m", "n", "o", "p", "q", "r", "s", "t", "u", "v", "w", "x", "y", "z" };
             _list.ItemsSource = _data;
+
+            _list.ItemSelected += Handle_list_ItemSelected;
+        }
+
+        private async void Handle_list_ItemSelected(object sender, SelectedItemChangedEventArgs e)
+        {
+            await Navigation.PushAsync(new DetailsPage());
         }
     }
 }
